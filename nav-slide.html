@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh_EN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv=X-UA-Compatible content=IE=Edge>
+    <title>菜单滑动效果</title>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<div class="questionTitle" style="margin: 50px auto;">
+    <ul class="questionTitle-list clearfix">
+        <li class="active">已解答问题(<span>56</span>)</li>
+        <li >待解答问题(<span>56</span>)</li>
+        <li >全部问题(<span>56</span>)</li>
+        <li >我的问题(<span>56</span>)</li>
+    </ul>
+    <div class="questionTitle--bg"></div>
+
+
+</div>
+<div class="questionList">
+    <div class="questionList-item">1</div>
+    <div class="questionList-item">2</div>
+    <div class="questionList-item">3</div>
+    <div class="questionList-item">4</div>
+</div>
+
+
+<script src="js/sea.js"></script>
+<script>
+    /*
+     * http://julabs.com
+     */
+    seajs.config({
+
+        'alias':{
+            'jquery':'lib/jquery.min',
+            'boot':'lib/bootstrap'
+        }
+    });
+    seajs.use(['nav-main']);
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang=zh_EN>
+<head>
+    <meta charset="UTF-8">
+    <title>webqq</title>
+    <script src="js/sea.js"></script>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+        background: red;
+            position: absolute;
+            display: none;
+        }
+        #div2{
+                width: 30px;
+                height:30px;
+                background: green;
+                position: absolute;
+                bottom: 0;
+                right:0;
+            }
+        #div3{
+            width: 100px;
+            height:100px;
+            background: blue;
+            position: absolute;
+            top: 0;
+            right:0;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="弹窗" id="input1"/>
+<div id="div1">
+    <div id="div2">
+
+    </div>
+</div>
+<div id="div3"></div>
+<script>
+    seajs.use('main.js');
+
+
+</script>
+
+</body>
+</html>
